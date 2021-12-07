@@ -11,7 +11,7 @@ Generates a Table of Contents from *H1...H6* Tags in HTML Content
 [![Total Downloads][ico-downloads]][link-downloads]
 
 **NOTE: This library now requires PHP 7.2 or newer; to retain PHP5-7.1 support, use the following composer directive:** 
-`composer require caseyamcl/toc ~2.0.0`
+`composer require boomdevs/toc ~2.0.0`
 
 This package provides a simple, framework-agnostic library to build
 a Table-of-Contents from HTML markup.  It does so by evaluating your *H1...H6* tags.
@@ -39,7 +39,7 @@ Install via [Composer](http://getcomposer.org/) by including the following in yo
  
     {
         "require": {
-            "caseyamcl/toc": "^3.0",
+            "boomdevs/toc": "^3.0",
         }
     }
 
@@ -299,17 +299,17 @@ Twig Usage:
 {{ toc_ordered(my_content, 2, 3) }}
 ```
 
-[ico-version]: https://img.shields.io/packagist/v/caseyamcl/toc.svg
+[ico-version]: https://img.shields.io/packagist/v/boomdevs/toc.svg
 [ico-license]: https://img.shields.io/badge/license-MIT-brightgreen.svg
-[ico-ghbuild]: https://github.com/caseyamcl/toc/workflows/Github%20Build/badge.svg
+[ico-ghbuild]: https://github.com/boomdevs/toc/workflows/Github%20Build/badge.svg
 [ico-phpstan]: https://img.shields.io/badge/PHPStan-level%205-brightgreen.svg
-[ico-coverage]: https://github.com/caseyamcl/toc/blob/master/coverage.svg
-[ico-downloads]: https://img.shields.io/packagist/dt/caseyamcl/toc.svg
+[ico-coverage]: https://github.com/boomdevs/toc/blob/master/coverage.svg
+[ico-downloads]: https://img.shields.io/packagist/dt/boomdevs/toc.svg
 
-[link-packagist]: https://packagist.org/packages/caseyamcl/toc
+[link-packagist]: https://packagist.org/packages/boomdevs/toc
 [link-phpstan]: https://phpstan.org/
-[link-ghbuild]: https://github.com/caseyamcl/toc/actions?query=workflow%3A%22Github+Build%22
-[link-downloads]: https://packagist.org/packages/caseyamcl/toc
-[link-downloads]: https://packagist.org/packages/caseyamcl/toc
-[link-author]: https://github.com/caseyamcl
+[link-ghbuild]: https://github.com/boomdevs/toc/actions?query=workflow%3A%22Github+Build%22
+[link-downloads]: https://packagist.org/packages/boomdevs/toc
+[link-downloads]: https://packagist.org/packages/boomdevs/toc
+[link-author]: https://github.com/boomdevs
 [link-contributors]: ../../contributors

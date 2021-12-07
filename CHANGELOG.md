@@ -96,7 +96,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [2.0.1] - 2019-06-26
 ### Fixed
-- Duplicate headings are identified correctly ([#7](https://github.com/caseyamcl/toc/issues/7))
+- Duplicate headings are identified correctly ([#7](https://github.com/boomdevs/toc/issues/7))
 - `composer:check-style` and `composer:fix-style` commands now work (fixed missing codesniffer library) 
 
 ## [2.0] - 2018-11-09

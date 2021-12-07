@@ -4,10 +4,10 @@
  * PHP TableOfContents Library
  *
  * @license http://opensource.org/licenses/MIT
- * @link https://github.com/caseyamcl/toc
+ * @link https://github.com/boomdevs/toc
  * @version 3
- * @package caseyamcl/toc
- * @author Casey McLaughlin <caseyamcl@gmail.com>
+ * @package boomdevs/toc
+ * @author Boomdevs <boomdevs@gmail.com>
  *
  * For the full copyright and license information, please view the LICENSE.md
  * file that was distributed with this source code.
@@ -30,7 +30,7 @@ use Masterminds\HTML5;
 /**
  * Table Of Contents Generator generates TOCs from HTML Markup
  *
- * @author Casey McLaughlin <caseyamcl@gmail.com>
+ * @author Boomdevs <boomdevs@gmail.com>
  */
 class TocGenerator
 {
